@@ -61,5 +61,7 @@ This project blinks an LED connected to GPIO 5 of the ESP32.
 ## Contact
 
 For questions or suggestions, please contact me on LinkedIn or by email:
+
 [🔗 LinkedIn](https://www.linkedin.com/in/dana-alkhatib99/)  
-✉️ [Email](alkhatib.dana99@gmail.com)
+✉️ [Email](mailto:alkhatib.dana99@gmail.com)
+
