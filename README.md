@@ -42,7 +42,7 @@ git clone https://github.com/Danakh99/IoT.git
 
 ### Blink Project
 
-This project blinks an LED connected to GPIO 2 of the ESP32.
+This project blinks an LED connected to GPIO 5 of the ESP32.
 
 #### Wiring Diagram
 
