@@ -1,8 +1,8 @@
 #include <Arduino.h>
 #include "WiFi.h"
 
-#define WIFI_NETWORK "Emad1-2.4GHz"
-#define WIFI_PASSWORD "0795509095"
+#define WIFI_NETWORK "wifi_name"    //here add your wifi name, Ensure you are connecting to a **2.4 GHz** network — the ESP32 **cannot** detect or connect to 5 GHz Wi-Fi networks 
+#define WIFI_PASSWORD "password"    //here add your wifi password
 #define WIFI_TIMEOUT_MS 20000
 
 void connectToWiFi(){
