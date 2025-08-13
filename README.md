@@ -58,6 +58,37 @@ This project blinks an LED connected to GPIO 5 of the ESP32.
 
 - After uploading, the LED should blink on and off at 1-second intervals.
 
+### Connect to WiFi
+
+This project demonstrates how to connect your ESP32 to a Wi-Fi network using the **WiFi.h** library.
+
+#### Code Overview
+
+- **WiFi.mode(WIFI_STA)** sets the ESP32 to station mode (connect to an existing network rather than creating one).
+- **WiFi.begin()** starts the connection process using your network SSID and password.
+- The `while` loop waits until the ESP32 is connected or until the timeout is reached.
+- On success, the ESP32 prints its local IP address to the serial monitor; on failure, it prints `"Failed!"`.
+
+#### Running the Code
+
+1. Replace `WIFI_NETWORK` and `WIFI_PASSWORD` with your own network credentials in:
+   ```cpp
+   #define WIFI_NETWORK "YourNetworkName"
+   #define WIFI_PASSWORD "YourNetworkPassword"
+   ```
+
+⚠️ WiFi Connection Notes:
+
+- Upload the code located in `/wifi/src/main.cpp` via PlatformIO.
+- Open the Serial Monitor in VSCode (baud rate 115200).
+- You should see connection progress dots (.....) followed by either:
+    - Connected: <your_IP> on success.
+    - Failed! if the timeout was reached without connecting.
+    - Default timeout is 20 seconds (change WIFI_TIMEOUT_MS if needed).
+    - Ensure you are connecting to a 2.4 GHz network; ESP32 does not support 5 GHz.
+
+
+
 ## Contact
 
 For questions or suggestions, please contact me on LinkedIn or by email:
