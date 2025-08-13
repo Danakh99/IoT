@@ -58,6 +58,19 @@ This project blinks an LED connected to GPIO 5 of the ESP32.
 
 - After uploading, the LED should blink on and off at 1-second intervals.
 
+### Connect to LCD
+#### Wiring
+<img width="2451" height="1284" alt="Screenshot From 2025-08-14 00-45-05" src="https://github.com/user-attachments/assets/7b19032d-3541-4578-b596-106ebcb4efe0" />
+
+#### Code overview
+
+
+
+
+
+
+
+
 ### Connect to WiFi
 
 This project demonstrates how to connect your ESP32 to a Wi-Fi network using the **WiFi.h** library.
