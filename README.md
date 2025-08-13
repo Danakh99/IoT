@@ -46,7 +46,7 @@ This project blinks an LED connected to GPIO 5 of the ESP32.
 
 #### Wiring Diagram
 
-![Blink Project Wiring](https://github.com/user-attachments/assets/1304b146-fe7c-4843-9cdf-33bb722adcd7)
+<img src="https://github.com/user-attachments/assets/1304b146-fe7c-4843-9cdf-33bb722adcd7" alt="Blink Project Wiring" width="400" />
 
 - Connect the LED's positive (long) leg to GPIO 2 on the ESP32 through a 220 Ω resistor.
 
@@ -60,7 +60,7 @@ This project blinks an LED connected to GPIO 5 of the ESP32.
 
 ### Connect to LCD
 #### Wiring
-<img width="2451" height="1284" alt="Screenshot From 2025-08-14 00-45-05" src="https://github.com/user-attachments/assets/7b19032d-3541-4578-b596-106ebcb4efe0" />
+<img src="https://github.com/user-attachments/assets/7b19032d-3541-4578-b596-106ebcb4efe0" alt="Screenshot From 2025-08-14 00-45-05" width="500" />
 
 #### Code overview
 
